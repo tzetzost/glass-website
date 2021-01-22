@@ -11,8 +11,9 @@ h1 {
   opacity: 0.8;
 }
 h2,
-p {
-  color: #658ec6;
+p,
+a {
+  color: #2a3d57;
   font-weight: 500;
   opacity: 0.8;
 }
@@ -26,7 +27,7 @@ h3 {
 main {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to top, #036e27, #f8ed50);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -48,7 +49,7 @@ main {
 }
 .circle1,
 .circle2 {
-  background: white;
+  background: rgb(255, 252, 62);
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.8),
@@ -97,7 +98,7 @@ main {
 }
 
 .pro {
-  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  background: linear-gradient(to right top, #4e9feb, #6cdbeb);
   border-radius: 2rem;
   color: white;
   padding: 1rem;
@@ -167,7 +168,7 @@ main {
   height: 100%;
   background: rgb(236, 236, 236);
   position: absolute;
-  left: 60%;
+  left: 90%;
 }
 .card-info {
   display: flex;
